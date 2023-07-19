@@ -7,6 +7,27 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body {
+    background-color: #FFF;
+    ;
+}
+
+.primary-btn {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+}
+
+.primary-para {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* Header part */
 
 /* nav section */
@@ -16,6 +37,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 40px 240px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .logo-img {
@@ -72,4 +94,386 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 220px;
+    gap: 200px;
+    margin-top: 20px;
+}
+
+.banner-images img {
+    width: 450px;
+}
+
+.play-like {
+    color: #0B0223;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.goat {
+    font-size: 85px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-para {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.btn2 {
+    background: #4EC5F7;
+    margin-left: 10px;
+}
+
+/* main part */
+
+/* we are gamer section */
+
+.we-are-gamer {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-are-gamer-img {
+    width: 100%;
+}
+
+.we-are-gamer-img img {
+    width: 560px;
+}
+
+.we-are-gamer-info {
+    width: 90%;
+    text-align: right;
+}
+
+.we-are-gamer-head {
+    font-size: 45px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.we-are-gamer-para {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.we-are-gamer-head2 {
+    color: #534C64;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 45px;
+    white-space: nowrap;
+}
+
+.we-are-gamer-btn {
+    margin: 15px 0px;
+}
+
+.online-games {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 130px;
+}
+
+.online-games-container {
+    text-align: center;
+}
+
+/* cards section */
+.cards {
+    display: flex;
+    margin: 30px auto;
+    padding: 0px 220px;
+    gap: 15px;
+}
+
+.card-img {
+    background-image: url("../images/Rectangle\ 4.png");
+    border-radius: 16px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-img:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("../images/Rectangle\ 4.png"), lightgray 50% / cover no-repeat;
+    border: 5px solid purple;
+}
+
+.card-img2 {
+    background-image: url("../images/Rectangle\ 5.png");
+    border-radius: 16px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-img2:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("../images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
+    border: 5px solid purple;
+}
+
+.card-img3 {
+    background-image: url("../images/Rectangle\ 6.png");
+    border-radius: 16px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-img3:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("../images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
+    border: 5px solid purple;
+
+}
+
+.card-img4 {
+    background-image: url("../images/Rectangle\ 7.png");
+    border-radius: 16px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-img4:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("../images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
+    border: 5px solid purple;
+
+}
+
+.primary-hover:hover .hover-container {
+    display: block;
+}
+
+.hover-watch-now {
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hover-container {
+    display: none;
+}
+
+.hover-anchor {
+    text-decoration: none;
+}
+
+/* play games section */
+.play-games-container{
+    margin-top: 100px;
+}
+.play-games {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 220px;
+    gap: 200px;
+}
+
+.play-games-img {
+    width: 500px;
+    border-radius: 8px;
+}
+.play-games-info{
+    width: 500px;
+}
+.overlap-img{
+    width: 220px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 180px;
+    left: 600px;
+}
+
+
+
+
+
+
+/* media for small devices */
+@media screen and (max-width:576px) {
+
+    nav,
+    .menus ul,
+    .we-are-gamer,
+    .cards
+     {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 0px;
+        padding-top: 50px;
+        gap: 40px;
+        box-shadow: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0px;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .banner-images img,
+    .we-are-gamer-img img {
+        width: 80%;
+    }
+
+    .banner-images,
+    .we-are-gamer {
+        margin: 20px auto;
+    }
+
+    .we-are-gamer {
+        text-align: center;
+    }
+
+    .we-are-gamer-info {
+        text-align: center;
+    }
+
+    .we-are-gamer-head2 {
+        font-size: 24px;
+    }
+
+    .cards {
+        padding: 20px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .card p {
+        width: 240px;
+        text-align: center;
+    }
+    .play-games-container{
+        padding: 0px 10px;
+        margin-top: -50px;
+    }
+    .play-games{
+        flex-direction: column-reverse;
+        padding: 10px;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .overlap-img{
+        width: 130px;
+        left: 280px;
+        bottom: 120px;
+    }
+    .play-games-img{
+        width: 320px;
+        margin-right: 20px;
+    }
+    .play-games-info{
+        width: 300px;
+    }
+}
+
+
+
+/* media for medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    .we-are-gamer {
+        flex-direction: column;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .we-are-gamer-info {
+        text-align: center;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card p {
+        width: 240px;
+        text-align: center;
+    }
+    .play-games{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+        padding: 20px;
+    }
+    .overlap-img{
+        left: 500px;
+    }
+    .play-games-container{
+        margin-top: 5px;
+    }
 }
